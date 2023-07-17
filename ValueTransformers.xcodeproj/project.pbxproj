@@ -25,6 +25,7 @@
 		05D3737220ED96D6007FE14A /* ValueTransformersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D3737120ED96D6007FE14A /* ValueTransformersTests.m */; };
 		05D3737420ED96D6007FE14A /* ValueTransformers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CD4ABA20ED7CD100DBDE99 /* ValueTransformers.framework */; };
 		05E4C883271F142600A07D92 /* BytesToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E4C882271F142600A07D92 /* BytesToString.swift */; };
+		E295FBA32A65426C003C5F68 /* DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E295FBA22A65426C003C5F68 /* DateToString.swift */; };
 		EF0F53592715DB6100BE981A /* SetIsEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F53582715DB6100BE981A /* SetIsEmpty.swift */; };
 		EF0F535B2715DD1A00BE981A /* SetIsNotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F535A2715DD1900BE981A /* SetIsNotEmpty.swift */; };
 /* End PBXBuildFile section */
@@ -107,6 +108,7 @@
 		05E4C880271F141400A07D92 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		05E4C881271F141400A07D92 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		05E4C882271F142600A07D92 /* BytesToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BytesToString.swift; sourceTree = "<group>"; };
+		E295FBA22A65426C003C5F68 /* DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToString.swift; sourceTree = "<group>"; };
 		EF0F53582715DB6100BE981A /* SetIsEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetIsEmpty.swift; sourceTree = "<group>"; };
 		EF0F535A2715DD1900BE981A /* SetIsNotEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetIsNotEmpty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -261,6 +263,7 @@
 				05D3734C20ED91E5007FE14A /* ArrayIsNotEmpty.swift */,
 				05D3734B20ED91E5007FE14A /* BoolToDisabledTextColor.swift */,
 				05E4C882271F142600A07D92 /* BytesToString.swift */,
+				E295FBA22A65426C003C5F68 /* DateToString.swift */,
 				05D3734620ED91E5007FE14A /* CountToString.swift */,
 				05CD4AC620ED7CE000DBDE99 /* Info.plist */,
 				05D3734720ED91E5007FE14A /* NumberIsGreaterThanZero.swift */,
@@ -438,6 +441,7 @@
 				EF0F535B2715DD1A00BE981A /* SetIsNotEmpty.swift in Sources */,
 				05D3736320ED91E5007FE14A /* ArrayHasOnlyOneObject.swift in Sources */,
 				05D3736020ED91E5007FE14A /* StringIsEmpty.swift in Sources */,
+				E295FBA32A65426C003C5F68 /* DateToString.swift in Sources */,
 				05E4C883271F142600A07D92 /* BytesToString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
